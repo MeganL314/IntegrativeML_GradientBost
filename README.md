@@ -12,7 +12,8 @@ Integrative machine learning pipeline for small or wide datasets to determine bi
 <br/><br/>
 
 ### Calculate SHAP and permutation importance of each feature
-#### Identify measurements prioritized by feature importance   
+#### 1. Identify measurements prioritized by feature importance   
+#### 2. Train one-vs-rest models with CV accuracy calculated
 <br/><br/>
 
 

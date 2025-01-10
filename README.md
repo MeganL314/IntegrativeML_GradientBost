@@ -4,16 +4,20 @@ Integrative machine learning pipeline for small or wide datasets to determine bi
 ### Train the model on all patients
 #### 1. Remove correlated features
 
-#### 2. Balance dataset with SMOTE to generate synthetic samples for the minority class
+#### 2. Balance dataset with SMOTE to generate synthetic samples for the minority class  
+
   
 
 ### Leave one out cross-validation
-#### Remove measurements that were only assigned to incorrect predictions (measured by model accuracy)
+#### Remove measurements that were only assigned to incorrect predictions (measured by model accuracy)  
+
   
 
 ### Calculate SHAP and permutation importance of each feature
-#### Identify measurements prioritized by feature importance 
+#### Identify measurements prioritized by feature importance   
+
 
   
 ### Resulting measurements used in Cox PH and logistic regression
-#### Tested transformations of selected biomarkers
+#### Tested transformations of selected biomarkers  
+
